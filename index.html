@@ -13,20 +13,23 @@
           <h1>The UX <span class="orange-t">Review</span></h1>
         </div>
         <div class="navbar-middle">
-          <a href="">Home</a>
+          <a href="#hero">Home</a>
           <img src="./images/icons/star-solid-full.png" alt="star" />
-          <a href="">Latest Articles</a>
+          <a href="#articles">Latest Articles</a>
           <img src="./images/icons/star-solid-full.png" alt="star" />
-          <a href="">Authors</a>
+          <a href="#authors">Authors</a>
           <img src="./images/icons/star-solid-full.png" alt="star" />
-          <a href="">Community</a>
+          <a href="#rebel">Community</a>
         </div>
         <div class="navbar-right">
           <button>SUBSCRIBE NOW</button>
         </div>
+        <div class="navbar-right-new">
+          <button class="box-shadow">☰</button>
+        </div>
       </div>
     </div>
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="hero-decor-l"></div>
       <div class="hero-decor-r"></div>
       <div class="container">
@@ -81,7 +84,7 @@
         </div>
       </div>
     </div>
-    <div class="articles">
+    <div class="articles" id="articles">
       <div class="container">
         <div class="articles-content">
           <div class="articles-l">
@@ -282,56 +285,308 @@
               </div>
             </div>
             <div class="categories box-shadow">
-                <div class="inner-categories">
-                    <h3>CATEGORIES</h3>
-                    <div class="cat1">
-                        <h5>TECH (24)</h5>
-                    </div>
-                    <div class="cat2">
-                        <h5>DESIGN (18)</h5>
-                    </div>
-                    <div class="cat3">
-                        <h5>CULTURE (15)</h5>
-                    </div>
-                    <div class="cat4">
-                        <h5>OPINION (12)</h5>
-                    </div>
-                    <div class="cat5">
-                        <h5>TUTORIALS (9)</h5>
-                    </div>
+              <div class="inner-categories">
+                <h3>CATEGORIES</h3>
+                <div class="cat1">
+                  <h5>TECH (24)</h5>
                 </div>
+                <div class="cat2">
+                  <h5>DESIGN (18)</h5>
+                </div>
+                <div class="cat3">
+                  <h5>CULTURE (15)</h5>
+                </div>
+                <div class="cat4">
+                  <h5>OPINION (12)</h5>
+                </div>
+                <div class="cat5">
+                  <h5>TUTORIALS (9)</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="authors">
-        <div class="container">
-            <div class="authors-head">
-                <h2>MEET THE AUTHORS</h2>
-                <p>The rebels behind the brutal truth</p>
-            </div>
-            <div class="authors-cards">
-                <div class="author-card1 box-shadow">
-                    <div class="inner-author-card">
-                        <div class="author-img"><img src="./images/avatar-1.jpg" alt="author1"></div>
-                        <div class="author-name"><h2>ALEX BRUTAL</h2></div>
-                    </div>
-            </div>
-            <div class="author-card2 box-shadow">
-                <div class="inner-author-card">
-                                 <div class="author-img"><img src="./images/avatar-2.jpg" alt="author1"></div>
-                        <div class="author-name"><h2>ALEX BRUTAL</h2></div>
-                </div>
-            </div>
-            <div class="author-card3 box-shadow">
-                <div class="inner-author-card">
-                                 <div class="author-img"><img src="./images/avatar-3.jpg" alt="author1"></div>
-                        <div class="author-name"><h2>ALEX BRUTAL</h2></div>
-                </div>
-            </div>
-            </div>
+    <div class="authors" id="authors">
+      <div class="authors-decor-top"></div>
+      <div class="authors-decor-bot"></div>
+      <div class="container">
+        <div class="authors-head">
+          <h2>MEET THE AUTHORS</h2>
+          <p>The rebels behind the brutal truth</p>
         </div>
+        <div class="authors-cards">
+          <div class="author-card1 box-shadow">
+            <div class="author1-label">Founder</div>
+            <div class="inner-author-card">
+              <div class="author-img">
+                <img src="./images/avatar-1.jpg" alt="author1" />
+              </div>
+              <div class="author-name">
+                <h2>ALEX BRUTAL</h2>
+                <h5>Tech Critic & Design Rebel</h5>
+                <p>
+                  Destroying conventional wisdom one article at a time. 10+
+                  years fighting the good fight against boring design and
+                  corporate BS. <br /><br />
+                </p>
+              </div>
+              <div class="author-links">
+                <div class="author-link1">
+                  <img
+                    src="./images/icons/twitter-brands-solid-full.png"
+                    alt="twitter"
+                  />
+                </div>
+                <div class="author-link2">
+                  <img
+                    src="./images/icons/linkedin-brands-solid-full.png"
+                    alt="linkedin"
+                  />
+                </div>
+                <div class="author-link3">
+                  <img
+                    src="./images/icons/instagram-brands-solid-full.png"
+                    alt="instagram"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-card2 box-shadow">
+            <div class="author2-label">LEAD</div>
+            <div class="inner-author-card">
+              <div class="author-img">
+                <img src="./images/avatar-2.jpg" alt="author2" />
+              </div>
+              <div class="author-name">
+                <h2>Arnold Reeve</h2>
+                <h5>UX Anarchist & Visual Provocateur</h5>
+                <p>
+                  Challenging design norms and creating chaos that actually
+                  works. Former corporate designer turned rebel with a cause.
+                </p>
+              </div>
+              <div class="author-links">
+                <div class="author-link1">
+                  <img
+                    src="./images/icons/twitter-brands-solid-full.png"
+                    alt="twitter"
+                  />
+                </div>
+                <div class="author-link2">
+                  <img
+                    src="./images/icons/linkedin-brands-solid-full.png"
+                    alt="linkedin"
+                  />
+                </div>
+                <div class="author-link3">
+                  <img
+                    src="./images/icons/instagram-brands-solid-full.png"
+                    alt="instagram"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="author-card3 box-shadow">
+            <div class="author3-label">VIRAL</div>
+            <div class="inner-author-card">
+              <div class="author-img">
+                <img src="./images/avatar-3.jpg" alt="author3" />
+              </div>
+              <div class="author-name">
+                <h2>MIKE EDGE</h2>
+                <h5>Cultural Critic & Trend Destroyer</h5>
+                <p>
+                  Dissecting digital culture and exposing the truth behind viral
+                  trends. No filter, just facts that cut through the noise.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div class="author-links">
+                <div class="author-link1">
+                  <img
+                    src="./images/icons/twitter-brands-solid-full.png"
+                    alt="twitter"
+                  />
+                </div>
+                <div class="author-link2">
+                  <img
+                    src="./images/icons/linkedin-brands-solid-full.png"
+                    alt="linkedin"
+                  />
+                </div>
+                <div class="author-link3">
+                  <img
+                    src="./images/icons/instagram-brands-solid-full.png"
+                    alt="instagram"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rebel" id="rebel">
+      <div class="container">
+        <div class="rebel-head">
+          <h2>JOIN THE REBELLION</h2>
+          <p>Where rebels gather to change the digital world</p>
+        </div>
+        <div class="rebel-content">
+          <div class="rebel-left">
+            <h3>BECOME PART OF SOMETHING BIGGER</h3>
+            <div class="rebel-l-text box-shadow">
+              <p>
+                Join thousands of designers, developers, and digital rebels who
+                are tired of the same old boring content. Our community is where
+                raw ideas meet bold execution and real change happens.
+              </p>
+            </div>
+            <div class="rebel-l-check">
+              <div class="check-content1">
+                <div class="check-num">
+                  <img src="./images/icons/check-solid-full.png" alt="check" />
+                </div>
+                <div class="check-text">
+                  Weekly brutal insights newsletter with exclusive content
+                </div>
+              </div>
+              <div class="check-content2">
+                <div class="check-num">
+                  <img
+                    src="./images/icons/discord-brands-solid-full.png"
+                    alt="discord"
+                  />
+                </div>
+                <div class="check-text">
+                  Exclusive community Discord access for real-time discussions
+                </div>
+              </div>
+              <div class="check-content3">
+                <div class="check-num">
+                  <img
+                    src="./images/icons/star-solid-full-white.png"
+                    alt="star"
+                  />
+                </div>
+                <div class="check-text">
+                  Early access to new articles before they go public
+                </div>
+              </div>
+              <div class="check-content4">
+                <div class="check-num">
+                  <img src="./images/icons/pen-solid-full.png" alt="pen" />
+                </div>
+                <div class="check-text">
+                  Early access to new articles before they go public
+                </div>
+              </div>
+            </div>
+            <div class="join_now_button">
+              <button class="box-shadow join-now">
+                <img
+                  src="./images/icons/rocket-solid-full.png"
+                  alt="rocket"
+                /><span>JOIN NOW - IT'S FREE</span>
+              </button>
+            </div>
+          </div>
+          <div class="rebel-right box-shadow">
+            <div class="rebel-r-content">
+              <h3>WHAT REBELS ARE SAYING</h3>
+              <div class="rebel-cards">
+                <div class="rebel-card1">
+                  <p>
+                    "Finally, a blog that tells it like it is. No corporate BS,
+                    just pure truth about what's really happening in tech. This
+                    is the wake-up call our industry needed."
+                  </p>
+                  <div class="rebel-sign">
+                    <div class="sign-img">
+                      <img src="./images/avatar-4.avif" alt="av4" />
+                    </div>
+                    <div class="sign-text">
+                      <h5>Mark T.</h5>
+                      <p>Senior Designer at Meta</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rebel-card2">
+                  <p>
+"The UX Review changed how I think about design. It's raw, honest, and exactly what our industry needs. Every article challenges my assumptions."
+                  </p>
+                  <div class="rebel-sign">
+                    <div class="sign-img">
+                      <img src="./images/avatar-5.jpg" alt="av6" />
+                    </div>
+                    <div class="sign-text">
+                      <h5>ALEX M.</h5>
+                      <p>Lead Developer at Stripe</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rebel-card3">
+                  <p>
+"The most authentic voice in digital culture. Every article challenges my assumptions and makes me think differently about the work I do."
+                  </p>
+                  <div class="rebel-sign">
+                    <div class="sign-img">
+                      <img src="./images/avatar-6.avif" alt="av6" />
+                    </div>
+                    <div class="sign-text">
+                      <h5>James K.</h5>
+                      <p>Creative Director at Adobe</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <div class="footer-l-head">
+              <div class="footer-l-img"><img src="./images/icons/pen-nib-solid-full.png" alt="pen"></div>
+              <h2>THE UX REVIEW</h2>
+            </div>
+            <p>Raw, unfiltered thoughts on tech, design, and digital culture. No compromise, no corporate speak, just brutal truth that matters.</p>
+          </div>
+          <div class="footer-middle">
+            <h3>CATEGORIES</h3>
+            <a href="#hero">TECH</a><br>
+            <a href="#hero">DESIGN</a><br>
+            <a href="#hero">CULTURE</a><br>
+            <a href="#hero">OPINION</a><br>
+            <a href="#hero">TUTORIALS</a>
+          </div>
+          <div class="footer-right">
+            <h3>NEWSLETTER</h3>
+            <p>Get brutal insights delivered weekly. No spam, just truth that cuts through the noise. </p>
+            <form>
+              <input type="email" placeholder="YOUR EMAIL ADDRESS">
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+        <hr>
+        <div class="foot-footer">
+          <div class="foot-footer-1">© 2025 The UX Review. ALL RIGHTS RESERVED. STAY BRUTAL.</div>
+          <div class="foot-footer-2">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+            <a href="">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
